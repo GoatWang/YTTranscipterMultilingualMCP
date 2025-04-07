@@ -1,32 +1,10 @@
-# Smithery configuration for YTTranscipterMultilingualMCP
-
-# Basic project information
-name: yt-transcipter-multilingual
-version: 0.1.0
-description: A service for transcribing YouTube videos in multiple languages
-
-# Build configuration
-build:
-  type: python
-  python_version: "3.10"
-  entrypoint: main.py
-  dependencies:
-    - httpx>=0.28.1
-    - mcp[cli]>=1.6.0
-    - youtube-transcript-api>=1.0.3
-
-# Docker configuration
-docker:
-  base_image: python:3.10-slim-buster
-  expose_ports:
-    - 5000
-
-# MCP server configuration
-mcp:
-  server_name: yttranscrpter
-  server_version: 0.1.0
-  transport: stdio
-
-# Runtime environment
-environment:
-  variables: []
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({ command: 'yt-transcipter-multilingual' })
+  # A function that produces the CLI command to start the MCP on stdio.
