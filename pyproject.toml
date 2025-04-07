@@ -9,3 +9,6 @@ dependencies = [
     "mcp[cli]>=1.6.0",
     "youtube-transcript-api>=1.0.3",
 ]
+
+[project.scripts]
+yt-transcipter-multilingual = "main:main"
