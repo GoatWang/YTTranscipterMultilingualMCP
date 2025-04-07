@@ -26,7 +26,7 @@ This repository contains the code for YTTranscipterMultilingualMCP, a service fo
 * Python 3.10+
 * Docker
 
-## Getting Started
+## Other Info
 
 1. Clone the repository:
 
