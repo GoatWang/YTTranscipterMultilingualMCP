@@ -181,8 +181,9 @@ async def get_transcript(url: str, lang: str = "auto") -> str:
 #     result = await get_transcript("https://www.youtube.com/watch?v=3_BXIQIdZ54")
 #     print(result)
     
+def main():
+    # asyncio.run(test_function())
+    mcp.run(transport='stdio')
 
 if __name__ == "__main__":
-    # Initialize and run the server using stdio transport
-    mcp.run(transport='stdio')
-    # asyncio.run(test_function())
+    main()
