@@ -1,0 +1,14 @@
+name: yt-transcipter-multilingual
+version: 0.1.0
+description: "YouTube Transcription Service"
+
+command:
+  path: /Library/Frameworks/Python.framework/Versions/3.10/bin/uv
+  args:
+    - --directory
+    - /Users/wanghsuanchung/Projects/MCPs/YTTranscipter/
+    - run
+    - main.py
+
+dependencies:
+  python: ">=3.10"
