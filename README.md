@@ -6,11 +6,12 @@
 This repository contains the code for YTTranscipterMultilingualMCP, a service for transcribing YouTube videos in multiple languages.
 
 ## Usage
+Notice: command should come with `<full-path-of-uvx>` e.g. `/Library/Frameworks/Python.framework/Versions/3.10/bin/uvx`
 ```
 {
   "mcpServers": {
     "yt-transcipter-multilingual": {
-      "command": "uvx",
+      "command": "/Library/Frameworks/Python.framework/Versions/3.10/bin/uvx", 
       "args": [
         "--from",
         "git+https://github.com/GoatWang/YTTranscipterMultilingualMCP",
