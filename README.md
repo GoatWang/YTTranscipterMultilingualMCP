@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/goatwang-yttransciptermultilingualmcp-badge.png)](https://mseep.ai/app/goatwang-yttransciptermultilingualmcp)
+
 # YTTranscipterMultilingualMCP
 [![smithery badge](https://smithery.ai/badge/@GoatWang/yttransciptermultilingualmcp)](https://smithery.ai/server/@GoatWang/yttransciptermultilingualmcp)
 
